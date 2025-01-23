@@ -1,0 +1,37 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "dev",
+			"path": "API",
+			"problemMatcher": [],
+			"label": "API dev",
+			"detail": "nodemon index.js"
+		},
+		{
+			"type": "npm",
+			"script": "prod",
+			"path": "API",
+			"problemMatcher": [],
+			"label": "API prod",
+			"detail": "node index.js"
+		},
+		{
+			"type": "npm",
+			"script": "dev",
+			"path": "cms",
+			"problemMatcher": [],
+			"label": "cms dev",
+			"detail": "vite"
+		},
+		{
+			"type": "npm",
+			"script": "dev",
+			"path": "front",
+			"problemMatcher": [],
+			"label": "front dev",
+			"detail": "vite"
+		},
+	]
+}
